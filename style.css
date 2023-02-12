@@ -1,0 +1,388 @@
+/* Reset */
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* Main Styling */
+html, body
+{
+ line-height: 1.7em;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a
+{
+	color: rgb(37, 37, 37);
+	text-decoration: none;
+}
+h1, h2, h3
+{
+	padding-bottom: 20px;
+}
+p
+{
+	margin: 10px;
+}
+#Brand
+{
+	padding-left: 12px;
+}
+/* Utility Classes */
+.container
+{
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0px 20px;
+}
+.text-primary
+{
+	color: rgb(147, 12, 151);
+}
+.para
+{
+	font-size: 20px;
+}
+.btn
+{
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: rgb(84, 142, 228);
+	padding: 4px 20px;
+	
+	border-radius: 4%;
+	cursor: pointer;
+}
+.btn:hover
+{
+	background: #8af7f2;
+	color: rgb(0, 0, 119);
+}
+.clr
+{
+	clear: both;
+}
+/* Navbar */
+#navbar
+{
+	background: rgb(1, 24, 88);
+	color:white;
+	overflow: auto  ;
+	
+}
+#navbar a
+{
+	color:white;
+}
+#navbar h1
+{
+	float: left;
+	padding-top: 20px;
+}
+#navbar ul
+{
+	list-style: none;
+	float: right;
+}
+#navbar ul li
+{
+	float: left;
+}
+#navbar ul li a
+{
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+#navbar ul li a:hover ,
+#navbar ul li a.current
+{
+	background: rgb(223, 209, 209);
+	color:darkblue;
+}
+
+/* Showcase */
+#showcase
+{
+	background: url(../photos/pexels-martin-péchy-2844474.jpg
+	) no-repeat center center/cover;
+	height: 600px;
+}
+#showcase .showcase-content
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 170px;
+}
+#showcase .showcase-content h1
+{
+	font-size: 60px;
+	line-height: 1.2em;
+}
+#showcase .showcase-content p
+{
+	padding-bottom: 20px;
+	line-height: 1.7em;
+}
+/* home-info */
+#home-info
+{
+	height: 400px;
+}
+#img
+{
+	float: left;
+	width: 50%;
+	height: 468px;
+	
+}
+#home-info .info-content
+{
+	float: right;
+	width: 50%;
+	height: 468px;
+	text-align: center ;
+	padding: 60px 30px;
+}
+.text-secondery
+{
+	color: rgb(212, 145, 0);
+}
+#home-info .info-content p
+{
+	padding-bottom: 30px;
+	color: white;
+}
+#home-info .info-content h2
+{
+	color: white;
+}
+.info-content
+{
+	background:url(../photos/pexels-engin-akyurt-1579253.jpg) no-repeat
+	center center/cover; 
+}
+.info-content p #p
+{
+	color: darkblue;
+}
+/* feature */
+.box
+{
+	float: left;
+	width: 33.3%;
+	
+	text-align: center;
+}
+.box i
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#box-bg
+{
+	background-color: rgb(233, 170, 97);
+}
+/* About info */
+.info-left
+{
+	width: 40%;
+	float: left;
+	padding-top: 28px;
+
+}
+.info-left p
+{
+	margin-top: -16px;
+}
+.info-left #About
+{
+	padding-bottom: 6px;
+	border-bottom: 1px solid darkblue;
+}
+.info-right p
+{
+	height: 100%;
+}
+.info-right
+{
+	background: url(../photos/pexels-rajesh-tp-1624487.jpg)no-repeat center
+	center/cover;
+	width: 55%;
+	float: right;
+	height: 100%;
+	padding: 22px 22px;
+	margin-top: 4px;
+}
+.info-right h2
+{
+	color: rgb(124, 0, 118);
+	text-align: center;
+	padding-bottom: 360px;
+	padding-top: 12px;
+}
+#testimonials
+{
+	height: 600px;
+	background: url(../photos/pexels-chan-walrus-958545.jpg) no-repeat
+	center center/cover;
+	padding-top: 40px ;
+}
+#testimonials .heading
+{
+	color: rgb(248, 0, 236);
+	text-align: center;
+	padding-top: 30px;
+	
+}
+#testimonials .testimonial
+{
+	padding: 12px;
+	margin-top: 12px;
+	margin-bottom: 30px;
+	background-color: wheat;
+	opacity: 0.7;
+	border-radius: 5px;
+}
+#testimonials .testimonial img
+{
+	width: 80px;
+	float: left;
+	margin-right: 12px;
+	border-radius: 50%;
+	border: 1px solid darkblue;
+}
+#testimonials .testimonial p
+{
+	color: rgb(3, 0, 158);
+}
+#contact
+{
+	margin-top: 24px;
+	margin-bottom: 38px;
+}
+#contact label
+{
+	display: block;
+	margin-bottom: 5px ;
+}
+#contact input,
+#contact textarea
+{
+	width: 100%;
+	padding: 10px;
+	border: 1px #ddd solid;
+}
+#contact textarea
+{
+	height: 200px;
+}
+#contact input:focus,
+#contact textarea:focus
+{
+outline:none;
+border-color: darkgoldenrod;
+}
+#box-b
+{
+	background-color: rgb(150, 182, 152);
+}
+#main-footer
+{
+	background: rgb(1, 24, 88);
+	color: white;
+	text-align: center;
+	padding: 12px;
+	
+}
+#table .titel
+{
+ color: darkblue;
+ background-color: rgb(143, 104, 33);
+ border-left: darkblue 8px solid;
+ margin-top: 12px;
+ text-align: center;
+ padding-top: 6px;
+ margin-left: 44px;
+ width: 94%;
+ margin-right: 44px;
+}
+#table table tr td
+{
+	border: 0.3px solid rgb(5, 63, 170);
+}
+#table table #head
+{
+	color: rgb(206, 10, 206);
+}
+#table table 
+{
+	border-collapse: collapse;
+	width: 94%;
+	text-align: center;
+	background: url(../photos/pexels-chan-walrus-958545.jpg) no-repeat 
+	center center/cover;
+	color: rgb(255, 255, 255);
+	margin-bottom: 12px;
+	margin-left: 44px;
+	padding-right: 44px;
+}
+
+.footer
+{
+    background-color:rgb(1, 1, 104);
+    height: 180px;
+}
+.footer .footer-item
+{
+    border-left: 1px solid white;
+    width: 33%;
+    float: left;
+    height: 170px;
+    margin-top: 8px;
+    color: white;
+    text-align: center;
+}
+.footer .footer-item a
+{
+	color: white;
+	padding: 8px;
+}
+#Click
+{
+	float: left;
+	margin-bottom: 12px;
+	margin-left: 100px;
+}
+.button a
+{
+	width: 22%;
+	
+	margin-bottom: 12px;
+	padding: 6px 28px;
+	background: rgb(33, 33, 182);
+	color: white;
+	border: 0.3px solid rgb(0, 0, 48);
+	border-radius: 5px;
+}
+.line
+{
+	float: left;
+}
+#Bg .bg-img
+{
+	width: 25%;
+	background: url(../photos/pexels-rajesh-tp-1624487.jpg) no-repeat 
+	center center/cover;
+	height: 100%;
+}
+.rsb-footer p
+{
+    margin-bottom: 4px;
+}
+.lsb-footer p
+{
+    margin: -1px;
+}
